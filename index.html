@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .monrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="monrope">
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <!-- for mobile start -->
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <!-- for mobile ended -->
+
+            <!-- for pc start -->
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <!-- for pc ended -->
+            <div class="navbar-end">
+              <a class="btn">Button</a>
+            </div>
+          </div>
+    </header>
+    <main class="container mx-auto">
+        <!-- professional start -->
+        <section class="border-y-2 border-[#131318] border-dashed border-opacity-20 pt-8 pb-[100px]">
+            <h1 class="font-semibold text-[36px] text-[#131318] text-center">Professional Hockeys Club</h1>
+            <p class="font-medium text-[#131318] opacity-60 text-center max-w-[607px] mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="flex flex-col md:flex-row gap-8 border-t-2 border-[#131318] border-dashed border-opacity-20 mt-8 pt-12">
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87; --size:7rem; " role="progressbar"><span class="text-[28px] font-extrabold text-[#131318]">87%</span></div>
+                    <h3 class="font-semibold text-[20px] text-center text-[#131318]">Prayer Facility</h3>
+                    <p class="text-[#131318] opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#49D293]" style="--value:95; --size:7rem; " role="progressbar"><span class="text-[28px] font-extrabold text-[#131318]">95%</span></div>
+                    <h3 class="font-semibold text-[20px] text-center text-[#131318]">Experienced Coach</h3>
+                    <p class="text-[#131318] opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7rem; " role="progressbar"><span class="text-[28px] font-extrabold text-[#131318]">90%</span></div>
+                    <h3 class="font-semibold text-[20px] text-center text-[#131318]">Senior Player</h3>
+                    <p class="text-[#131318] opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7rem; " role="progressbar"><span class="text-[28px] font-extrabold text-[#131318]">80%</span></div>
+                    <h3 class="font-semibold text-[20px] text-center text-[#131318]">Training Ground</h3>
+                    <p class="text-[#131318] opacity-60 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+        <!-- professional ended -->
+    </main>
+    <footer></footer>
+</body>
+</html>
